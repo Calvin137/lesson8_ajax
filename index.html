@@ -1,8 +1,8 @@
 <html>
 <!- - 
 Program Name:   Seminole Movie Connection
-Author: 
-Date: 
+Author: Calvin Dominguez-Lay
+Date: April 14, 2017
 Filename:   index.html
 - ->
     
@@ -52,7 +52,12 @@ Filename:   index.html
         <a href="#" class="list-group-item">
             <h3 class="list-group-item-heading">Release Date:</h3>
             <p class="list-group-item-text lead text-primary" id="Released">  </p>
-        </a> 
+        </a>
+        
+        <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Year:</h3>
+            <p class="list_group-item-text lead text-primary" id="Year">  </p>
+        </a>
 
     </div>
 </div> 
@@ -71,6 +76,7 @@ Filename:   index.html
                      $('#Actors').html(json.Actors);
                      $('#Plot').html(json.Plot);
                      $('#Released').html(json.Released);
+                     $('#Year').html(json.Year);
                 })
                 .fail(function() {
                       alert("Posting failed.");              

@@ -4,19 +4,18 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+April 14, 2017
 
 ### Student Name:  
-(First and Last Name)
+Calvin Dominguez-Lay
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+In this assignment we build an application that displays information about movies
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://calvin137.github.io/lesson8_ajax/
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. Building an application using an API
+2. Parse JSON data
+3. Use Ajax to send http request and receive back an http response
